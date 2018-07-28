@@ -9,7 +9,7 @@ def main(argv):
     sequences = read_sequences(filename)
 
     print("Sequences in file:")
-    for i, s in zip(range(1, len(sequences)), sequences):
+    for i, s in zip(range(1, len(sequences) + 1), sequences):
         print(str(i) + ": " + s[0])
 
     print("\nChoose the index (n,m) of the sequences that will be compared:")
